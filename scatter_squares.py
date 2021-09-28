@@ -60,6 +60,6 @@ fig, ax = plt.subplots()
 ax.scatter(x_values, y_values, c=y_values, cmap=plt.cm.Blues, s=10) #c-kolor, s-szerokość linii
 
 
-plt.savefig('squares_plot.png', bbox_inches='tight')
+plt.savefig('squares_plot.png', bbox_inches='tight')#ten zapis nie zadziałał
 
 
